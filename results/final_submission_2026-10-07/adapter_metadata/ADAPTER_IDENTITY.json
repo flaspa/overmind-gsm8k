@@ -1,0 +1,52 @@
+{
+  "name": "N1 (gsm8k-lora-preserve-N1-qwen3-4b-1ep-lr1e-6)",
+  "overmind_finetune_run_id": "38446c1b-da32-456e-8283-58b1fba63ba2",
+  "overmind_deployed_model_id": "f33a321a-e66d-48fd-8e9e-9b48cb8e8fb7",
+  "overmind_project_id": "f51cc9e1-a7c4-4453-9811-e7fe649fcff2",
+  "checkpoint": "checkpoint-final (step 841)",
+  "local_path": "checkpoints\\qwen3-4b-preserveN1-1ep-lr1e-6\\adapter",
+  "checkpoint_archive": {
+    "file": "checkpoint.archive",
+    "bytes": 77567763,
+    "sha256": "902f597b633c9774883d3ddf46aec42b0c3ff2af208e70b0e18fa1efaeadcc75"
+  },
+  "adapter_files": {
+    "README.md": {
+      "bytes": 5254,
+      "sha256": "3124608f711f91840c7fa34c6ff14a6cad06bbbd1891b494d02e84b00d3c0876"
+    },
+    "adapter_config.json": {
+      "bytes": 1285,
+      "sha256": "f99dd94a322d435938b27ebef5fbddf93b5e50edae8d24098169eb5e3d2886b2"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 66126768,
+      "sha256": "224e9ac74bfd1878bba27ec789508978df02355b61cecea1bb518a647118a6e7"
+    },
+    "chat_template.jinja": {
+      "bytes": 4761,
+      "sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab"
+    },
+    "tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+    },
+    "tokenizer_config.json": {
+      "bytes": 402,
+      "sha256": "4323a0032c83f30c65009e298764da738360bc8ddb5b55112b0a7599eac501bc"
+    },
+    "training_args.bin": {
+      "bytes": 5841,
+      "sha256": "67de5936522f5983bdcc40605235a97f51a263f8f252e793913221f88e615218"
+    }
+  },
+  "lora_trainable_parameters": 16515072,
+  "lora_tensor_count": 504,
+  "base_model_for_eval": {
+    "repo": "unsloth/Qwen3-4B",
+    "revision": "64033659d5caf1b8ed7f929b29de705e93a4d468",
+    "safetensors_total_params": 4022468096,
+    "dtype": "BF16"
+  },
+  "note": "Adapter weights (adapter_model.safetensors) are not committed; identify them by the sha256 above."
+}
